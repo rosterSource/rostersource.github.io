@@ -1,0 +1,35 @@
+url: "https://rostersource.github.io/"
+baseurl: ""
+
+title: RosterSource
+
+# Short description of your site
+description: Open Source Provider Directory Software and Data Network
+
+# --- Navigation bar options --- #
+
+# List of links in the navigation bar
+navbar-links:
+  Home: "https://rostersource.github.io/"
+  Specification : 
+  - Data Specification for POC : dataspecification
+  - Process Workflow : processworkflow
+  - Architecture : architecture
+  #For All Participants: help
+  #Provider Roster PaaS: provider
+
+# --- Footer options --- #
+
+# Change all these values or delete the ones you don't want.
+# Important: you must keep the "name" parameter, everything else you can remove
+author:
+  name: RosterSource
+  email: "rostersource@rostersource.com"
+
+
+# Fill in your Google Analytics ID to track your website using GA
+google_analytics: ""
+
+timezone: "America/Toronto"
+markdown: kramdown
+highlighter: rouge
