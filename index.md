@@ -12,7 +12,7 @@ share-img:
   </div>
   <div id="page-subtitle">Open Source Provider Directory Software and Data Network </div>
   <div id="header-btns">
-    <a id="header-btn-left" class="btn" href="#">Demo</a>
+    <a id="header-btn-left" class="btn" href="{{ site.baseurl }}/under_contructruction">Demo</a>
     <a id="header-btn-right" class="btn" href="{{ site.baseurl }}/architecture">Get Started</a>
   </div>
   <div id="header-credits">
@@ -64,7 +64,7 @@ Significant cost savings are achieved through federated roster management shared
 </div>
 
 <div id="license-section">
-  RosterSource was developed for non-commercial purposes For commercial usage, please <a href="mailto:gunjan.siroya@netspective.com?Subject=RosterSource Enquiry">contact us</a>.
+  RosterSource was developed for non-commercial purposes. For commercial usage, please <a href="mailto:gunjan.siroya@netspective.com?Subject=RosterSource Enquiry">contact us</a>.
   <p>If you find RosterSource useful, please consider supporting its development</p>
   <div id="smiley"><i class="fa fa-smile-o"></i></div>
 

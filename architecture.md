@@ -6,7 +6,7 @@ RosterSource architecture design focused on the need for flexibility, scalabilit
 
 - RosterSource network layout vision outlines the ease of connectivity, support of multiple protocols and ability to share data within practices, networks and providers. 
 - Circle shape fill color represent the direct network they are in. 
-- Data can be aggregated to the payer or through an aggregated node at the provider
+- Data can be aggregated to the payer or through an aggregated node at the provider.
   
   <div class="feature">
   
