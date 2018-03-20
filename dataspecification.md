@@ -3,22 +3,15 @@ layout: page
 title: Data Specification for PoC
 ---
 
+<div class="feature">
+    <h3>Proof of Concept (PoC) fields for clinician demographics:</h3> Required Fields for clinician demographics:
+    <br/>
+    <br/> The following data elements are core data needs for this proof of concept.
 
+    <br/>
+    <br/>
 
-  
-  <div class="feature">
-   <h3>Proof of Concept (PoC) fields for clinician demographics:</h3> 
-   Required Fields for clinician demographics:
-   <br/>
- <br/>
-   
-  The following data elements are core data needs for this proof of concept.
- 
-<br/>
- <br/>
-
- 
-  </div>
+</div>
 
 
 
@@ -47,10 +40,10 @@ title: Data Specification for PoC
 
 <br/>
 <div class="feature">
-                           
-        The following additional data if available, may be collected for this proof of concept: 
-      <br/>
-      <br/>
+
+    The following additional data if available, may be collected for this proof of concept:
+    <br/>
+    <br/>
 </div>
 
 | Line | Data Needed | Column | Description |
