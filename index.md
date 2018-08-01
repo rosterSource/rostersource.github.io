@@ -61,15 +61,27 @@ share-img:
         <br />
         <br /> Significant cost savings are achieved through federated roster management shared services and open source software. You’re no longer alone.</div>
 </div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+            <div id="license-section">
+                RosterSource was developed for non-commercial purposes. For commercial usage, please <a href="mailto:gunjan.siroya@netspective.com?Subject=RosterSource Enquiry">contact us</a>.
+                <p>If you find RosterSource useful, please consider supporting its development</p>
+                <div id="smiley"><i class="fa fa-smile-o"></i></div>
 
-<div id="license-section">
-    RosterSource was developed for non-commercial purposes. For commercial usage, please <a href="mailto:gunjan.siroya@netspective.com?Subject=RosterSource Enquiry">contact us</a>.
-    <p>If you find RosterSource useful, please consider supporting its development</p>
-    <div id="smiley"><i class="fa fa-smile-o"></i></div>
-
-    <p align="center">
-        <a href="#">
-            <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif">
-        </a>
-    </p>
+                <p align="center">
+                    <a href="#">
+                        <img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif">
+                    </a>
+                </p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="license-section-btn">
+            For more information <br>
+             <a id="" class="" href="/docs/RosterSource_3686ALL0418.pdf" download>click here</a>
+           </div>
+        </div>
+    </div>
 </div>
+
