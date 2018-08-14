@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/readme/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/feature/1/</loc>
+  </url>
+  
+  <url>
+    <loc>/feature/2/</loc>
+  </url>
+  
+  <url>
+    <loc>/feature/3/</loc>
+  </url>
+  
+  <url>
+    <loc>/architecture/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/dataspecification/</loc>
+  </url>
+  
+  <url>
+    <loc>/feature/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/under_contructruction/</loc>
+  </url>
+  
+  <url>
+    <loc>/processworkflow/</loc>
+  </url>
+  
+  <url>
+    <loc>/provider/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/help/</loc>
+  </url>
+  
+</urlset>

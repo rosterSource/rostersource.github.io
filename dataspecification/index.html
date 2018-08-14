@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Data Specification for PoC</title>
+  <meta property="og:title" content="Data Specification for PoC" />
+  <meta name="twitter:title" content="Data Specification for PoC" />
+  <meta name="description" content="Proof of Concept (PoC) fields for clinician demographics: Required Fields for clinician demographics:  The following data elements are core data needs for this proof of concept.
+   Line Required Column Description     1 Required Last Name Last Name   2 Required First Name First Name   3 Required Middle Name Middle Name   4 Required Suffix Suffix   5 Required TaxIDindividual Tax ID number associated with the provider (individual practitioner)   6 Required TaxIDinstitution Tax ID number associated with the provider (institution).">
+  <meta property="og:description" content="Proof of Concept (PoC) fields for clinician demographics: Required Fields for clinician demographics:  The following data elements are core data needs for this proof of concept.
+   Line Required Column Description     1 Required Last Name Last Name   2 Required First Name First Name   3 Required Middle Name Middle Name   4 Required Suffix Suffix   5 Required TaxIDindividual Tax ID number associated with the provider (individual practitioner)   6 Required TaxIDinstitution Tax ID number associated with the provider (institution).">
+  <meta name="twitter:description" content="Proof of Concept (PoC) fields for clinician demographics: Required Fields for clinician demographics:  The following data elements are core data needs for this proof of concept.
+   Line Required …">
+  <meta name="author" content="Some Person"/>
+  <link href='/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="/dataspecification/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Roster Source" />
+
+  <meta name="generator" content="Hugo 0.43" />
+  <link rel="canonical" href="/dataspecification/" />
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Roster Source">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/css/index.css" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="/css/highlight.min.css" /><link rel="stylesheet" href="/css/codeblock.css" />
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/default-skin/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous">
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="/img/logo.png">
+         
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Home" href="/">Home</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Specification</a>
+              <div class="navlinks-children">
+                
+                  <a href="/dataspecification">Data Specification for PoC</a>
+                
+                  <a href="/processworkflow">Process Workflow</a>
+                
+                  <a href="/architecture">Architecture</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="">
+            <div class="page-heading">   
+                        
+              <h1>Data Specification for PoC</h1>
+              
+              
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-12">
+      <article role="main" class="blog-post">
+        <p><h3>Proof of Concept (PoC) fields for clinician demographics:</h3> Required Fields for clinician demographics:
+    <br/>
+     The following data elements are core data needs for this proof of concept.</p>
+
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Required</th>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>Required</td>
+<td>Last Name</td>
+<td>Last Name</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Required</td>
+<td>First Name</td>
+<td>First Name</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Required</td>
+<td>Middle Name</td>
+<td>Middle Name</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Required</td>
+<td>Suffix</td>
+<td>Suffix</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Required</td>
+<td>TaxIDindividual</td>
+<td>Tax ID number associated with the provider (individual practitioner)</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Required</td>
+<td>TaxIDinstitution</td>
+<td>Tax ID number associated with the provider (institution). For employers, including state and local government agencies and non-profit organizations, TIN is the IRS issued employer identification number (EIN). EINs are public information per the <a href="https://apps.fcc.gov/coresWeb/html/tin.html" target="_blank">FCC</a></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Required</td>
+<td>NPI</td>
+<td>NPI</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Required</td>
+<td>HCPT Spec Code</td>
+<td>Health Care Provider Taxonomy- Industry standard specialty codes (for complete code list   <a href= "http://www.wpc-edi.com/reference/codelists/healthcare/health-care-provider-taxonomy-code-set/" target="_blank"> see </a> )</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>Required</td>
+<td>isAcceptingPatients</td>
+<td>The provider is accepting the patients for the payer product: only existing patients, family members of existing patients, new patients, other per Provider/Payer</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>Required</td>
+<td>PayerNtwkEffDate</td>
+<td>Date - the provider joined this network (at the group level for POC purposes)</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>Required</td>
+<td>PayerNtwkExpireDate</td>
+<td>Date - the provider left this network (at the group level for POC purposes)</td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>Required</td>
+<td>Site/Location EffectiveDate</td>
+<td>Provider&rsquo;s start date at this location</td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>Required</td>
+<td>Site/LocationTerminationDate</td>
+<td>Provider&rsquo;s end date at this location</td>
+</tr>
+
+<tr>
+<td>14</td>
+<td>Required</td>
+<td>PracticeStreet1</td>
+<td>Provider&rsquo;s place of medical service, practice address street line 1</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>Required</td>
+<td>PracticeStreet2</td>
+<td>Practice address street line 2</td>
+</tr>
+
+<tr>
+<td>16</td>
+<td>Required</td>
+<td>PracticeCity</td>
+<td>Practice city</td>
+</tr>
+
+<tr>
+<td>17</td>
+<td>Required</td>
+<td>PracticeState</td>
+<td>Practice state</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td>Required</td>
+<td>PracticeZip</td>
+<td>Practice zip</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td>Required</td>
+<td>PracticeTelephone</td>
+<td>Practice phone (can have multiple types by location, i.e. , appointment, business line)</td>
+</tr>
+</tbody>
+</table>
+
+<p>The following additional data if available, may be collected for this proof of concept:</p>
+
+<table>
+<thead>
+<tr>
+<th>Line</th>
+<th>Data Needed</th>
+<th>Column</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>20</td>
+<td>High</td>
+<td>PrimaryContactName</td>
+<td>Practice contact name</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td>High</td>
+<td>PrimaryContactFax</td>
+<td>Fax</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td>High</td>
+<td>ProviderRetireDate</td>
+<td>Date of the provider Retired</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td>High</td>
+<td>ProviderDeceaseDate</td>
+<td>Date of the provider deceased</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td>High</td>
+<td>ProviderProficiencyEnglish</td>
+<td>Provider&rsquo;s proficiency in the English language</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td>High</td>
+<td>ProviderOtherLanguages</td>
+<td>Languages spoken by the provider (other than English)</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td>High</td>
+<td>StaffProficiencyEnglish</td>
+<td>Staff proficiency in the English language</td>
+</tr>
+</tbody>
+</table>
+
+
+        
+    
+      </article>
+
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">      
+        <p class="credits foot-title text-muted">
+          RosterSource - Provider data federation network         
+        </p>
+        
+        <p class="credits copyright text-muted">
+          
+          <a href="https://rostersource.github.io">RosterSource</a>
+          &nbsp;•&nbsp;
+          <a href="https://github.com/rosterSource">View on GitHub</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script>
+<script src="/js/load-photoswipe.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Features on Roster Source</title>
+    <link>/feature/</link>
+    <description>Recent content in Features on Roster Source</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    
+	<atom:link href="/feature/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>1</title>
+      <link>/feature/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/feature/1/</guid>
+      <description>Your institution continues to manage your provider data in your existing systems and RosterSource pulls them in automatically. You point us to your data, and we take care of the back-end infrastructure and data exchange.</description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>/feature/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/feature/2/</guid>
+      <description>RosterSource provides free connectivity software, infrastructure, authentication, authorization, and data syncing.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>/feature/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/feature/3/</guid>
+      <description>Sync your provider data from EHRs, revenue cycle, practice management, or any other system securely.</description>
+    </item>
+    
+  </channel>
+</rss>

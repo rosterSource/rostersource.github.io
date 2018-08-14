@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roster Source</title>
+    <link>/</link>
+    <description>Recent content on Roster Source</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
+    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/readme/</guid>
+      <description>RosterSource Open Source Provider Directory Software and Data Network</description>
+    </item>
+    
+    <item>
+      <title>1</title>
+      <link>/feature/1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/feature/1/</guid>
+      <description>Your institution continues to manage your provider data in your existing systems and RosterSource pulls them in automatically. You point us to your data, and we take care of the back-end infrastructure and data exchange.</description>
+    </item>
+    
+    <item>
+      <title>2</title>
+      <link>/feature/2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/feature/2/</guid>
+      <description>RosterSource provides free connectivity software, infrastructure, authentication, authorization, and data syncing.</description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>/feature/3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/feature/3/</guid>
+      <description>Sync your provider data from EHRs, revenue cycle, practice management, or any other system securely.</description>
+    </item>
+    
+    <item>
+      <title>Architecture</title>
+      <link>/architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/architecture/</guid>
+      <description>RosterSource architecture design focused on the need for flexibility, scalability, security and leveraging open source solutions.
+ RosterSource network layout vision outlines the ease of connectivity, support of multiple protocols and ability to share data within practices, networks and providers.
+ Circle shape fill color represent the direct network they are in.
+ Data can be aggregated to the payer or through an aggregated node at the provider.
+  RosterSource Architecture: This browser does not support PDFs.</description>
+    </item>
+    
+    <item>
+      <title>Data Specification for PoC</title>
+      <link>/dataspecification/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/dataspecification/</guid>
+      <description>Proof of Concept (PoC) fields for clinician demographics: Required Fields for clinician demographics:  The following data elements are core data needs for this proof of concept.
+   Line Required Column Description     1 Required Last Name Last Name   2 Required First Name First Name   3 Required Middle Name Middle Name   4 Required Suffix Suffix   5 Required TaxIDindividual Tax ID number associated with the provider (individual practitioner)   6 Required TaxIDinstitution Tax ID number associated with the provider (institution).</description>
+    </item>
+    
+    <item>
+      <title>Page under construction</title>
+      <link>/under_contructruction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/under_contructruction/</guid>
+      <description>Stay tuned This page is under construction&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Process Workflow</title>
+      <link>/processworkflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/processworkflow/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roster Net</title>
+      <link>/provider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/provider/</guid>
+      <description>The quality of physician demographics and which insurance plans they accept remains a challenge across the healthcare ecosystem. Even answering a simple question like “is a particular provider accepting new patients?” is not easy to answer.
+No single stakeholder or institution can solve this problem alone. The RosterNet community was created to pull all participants into a single open source community so that resources&amp;ndash;senior infrastructure and system architects with the skills needed to manage secure provider roster data&amp;ndash;can be shared across institutions.</description>
+    </item>
+    
+    <item>
+      <title>RosterSource</title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/</guid>
+      <description>What is RosterSource? Free and open Platform as a Service (PaaS) for federated physician roster data exchange.
+Keeping physician roster data updated can be a constant struggle for both physician practices and health plans. Even answering a simple question like “is a particular provider accepting new patients?” is not easy to answer. A new solution called RosterSource is designed to make updates easy for everyone - at no cost to physician offices.</description>
+    </item>
+    
+    <item>
+      <title>What is RosterNet?</title>
+      <link>/help/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@domain.com (Some Person)</author>
+      <guid>/help/</guid>
+      <description>Provider Roster PaaS Community developers manage the free software and an open business model helps health system staff, health insurance staff, and other industry participants manage their own or their partners’ federated data. All the difficult security-related, compliance-focused, and data quality capabilities are baked into the open source solution. You point us to your provider data in EHRs, practice management, or RCM systems and we take care of the back end infrastructure and data exhange.</description>
+    </item>
+    
+  </channel>
+</rss>
